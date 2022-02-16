@@ -26,17 +26,16 @@ function main() {
     .then (data => {
         const html = data.results
         .map((people, index) => {
-            id = index + 1;
             return ` 
-            <div id="#${id}" class="container">
+            <div id=${index} class="container">
                 <div class="card">
                     <img class="card-img" src=${images[index]} alt="${people.name}">
                     <div class="card-content">
-                        <button class="open-btn" data-modal-target="#modal${id}">${people.name}</button>
+                        <button class="open-btn" data-modal-target=${index}>${people.name}</button>
                     </div>
                 </div> 
             </div>
-            <div class="modal-container" id="modal${id}">
+            <div class="modal-container" id=${index}>
                 <div class="modal">
                     <img src=${images[index]} alt="Starwars Icon">
                     <h1>${people.name}</h1>
