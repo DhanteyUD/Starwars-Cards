@@ -12,7 +12,7 @@ body {
     background-repeat: no-repeat; 
     background-size: cover; 
     box-sizing: border-box;
-    font-family: "Audiowide", sans-serif;
+    font-family: "Roboto", sans-serif;
     display: grid;
     margin-left: 2rem;
     margin-right: 2rem;
@@ -27,7 +27,7 @@ body {
         background-repeat: no-repeat;
         background-color: rgb(255, 255, 255);
         box-sizing: border-box;
-        font-family: "Audiowide", sans-serif;
+        font-family: "Roboto", sans-serif;
         display: grid;
         margin-left: 2rem;
         margin-right: 2rem;
@@ -75,7 +75,7 @@ body {
 .container {
     width: 100%;
     background-color: #fff;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     overflow: hidden;
     box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.8);
     cursor: pointer;
@@ -91,7 +91,7 @@ body {
     .container {
         width: 100%;
         background-color: rgb(255, 255, 255);
-        border-radius: 2rem;
+        border-radius: 1rem;
         overflow: hidden;
         box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.8);
         cursor: pointer;
@@ -117,7 +117,7 @@ body {
     font-size: 15px;
     width: 100%;
     border: none;
-    font-family: "Audiowide", sans-serif;
+    font-family: "BioRhyme", sans-serif;
     padding: 20px;
     border-radius: 5px;
     text-align: center;
@@ -168,7 +168,8 @@ body {
     padding: 25px;
     margin: 0 21px;
     width: 100%;
-    font-family: "Audiowide", sans-serif;
+    font-size: 35px;
+    font-family: "Libre Barcode 128 Text", sans-serif;
     text-align: center;
     transition: color 1s;
     -webkit-transition: color 1s;
@@ -219,10 +220,10 @@ body {
         margin-right: 0;
     }
     .footer-card p {
-        margin-left: 18%;
+        margin-left: 10%;
         width: 100%;
         display: flex;
-        font-family: "Audiowide", sans-serif;
+        font-family: "Libre Barcode 128 Text", sans-serif;
         text-align: end;
         transition: color 1s;
         -webkit-transition: color 1s;
@@ -292,7 +293,7 @@ body {
     height: 480px;
     max-width: 100%;
     padding: 30px 50px;
-    border-radius: 40px;
+    border-radius: 2rem;
     box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.5);
     text-align: center;
 }
@@ -305,13 +306,13 @@ body {
     text-align: center;
     padding: 10px;
     margin-bottom: 60px 0 10px 0;
-    font-family: "Audiowide";
+    font-family: "BioRhyme", sans-serif;
     font-size: 18px;
 }
 .modal ul {
     list-style: none;
     line-height: 40px;
-    font-family: fantasy;
+    font-family: "Fira Code", sans-serif;
     font-size: 20px;
     margin-top: 10px;
     border-radius: 20px;
@@ -322,7 +323,7 @@ body {
     border: 0;
     color: #fff;
     font-size: 14px;
-    font-family: fantasy;
+    font-family: "pacifico", sans-serif;
     margin-top: 20px;
     padding: 20px 90px;
     border-radius: 40px;
