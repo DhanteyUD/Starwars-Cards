@@ -1,4 +1,3 @@
-console.log("card4")
 const images = [
     "/images/Luke-Skywalker.jpeg", 
     "/images/C-3PO.jpeg", 
