@@ -1,6 +1,6 @@
 ## Description:
 
-A SPA (single page application) application using HTML, CSS and JavaScript. It shows all characters from a star wars API (https://swapi.dev/api/people). 
+A SPA (single page application) using HTML, CSS and JavaScript. It shows all characters from a star wars API (https://swapi.dev/api/people). 
 
 ### Process
 
