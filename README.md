@@ -10,7 +10,7 @@ A SPA (single page application) using HTML, CSS and JavaScript. It shows all cha
 >
 > 3. Displays a list with the names of each person from the API request.
 >
-> 4. Pretty and responsive design
+> 4. Should be a pretty and responsive design
 >
  [Hosted  on netlify](clinton-starwars.netlify.app)
 
